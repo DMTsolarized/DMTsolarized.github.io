@@ -61,7 +61,7 @@ header{
 	
 }
 .top{
-	margin-top: 22vh;
+	margin-top: 20vh;
 	position: absolute;
 }
 .right{
@@ -90,7 +90,7 @@ header{
 	font-size: 2rem;
 	line-height: 4rem;
 }
-.active{
+#active{
 		border-bottom: 0.06rem solid white;
 }
 #statusp{

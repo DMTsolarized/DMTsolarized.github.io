@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="images/l2 dark icon.png"/> 
 <title>LIN]E[AGE HighFive x5000</title>
-<link href="style.css?ver=1.5" rel="stylesheet" type="text/css">
+<link href="style.css?ver=1.6" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header>
@@ -18,17 +18,18 @@
 		<aside id="navbar" class="left top">
 			<ul>
 				<li><a href="index.html">მთავარი</a></li>
-				<li class="active"><a href="download.html">ფაილები</a></li>
+				<li id="active"><a href="download.html">ფაილები</a></li>
 				<li><a href="serv.html">სერვერის შესახებ</a></li>
+				<li id="don"><a href="javascript:donation();" >დონაცია</a></li>
 				<li><a href="javascript:msg();" >რეგისტრაცია</a></li>
 				</ul>
 		</aside>
 		<article class="top">
-			<p style="font-size: 1.4rem;">სერვერზე სათამაშოდ აუცილებელი პატჩის გადმოსაწერად გამოიყენეთ <a style="font-size: 1.4rem;" href="https://mega.nz/file/OW5HkIiD#_QNT-gxNqFhkTewvCwX73aNUZTpvcTovt6YX3amtTKc">MEGA ლინკი</a></p>
-			<p style="font-size: 1.4rem;">კლიენტის გადმოსაწერად ისარგებლეთ</p><a  style="font-size: 1.4rem;" href="https://l2dark.usite.pro/L2Dark.usite.pro_Client.torrent">ტორენტით</a>
+			<p style="font-size: 1.3rem;" id="demo">სერვერზე სათამაშოდ აუცილებელი პატჩის გადმოსაწერად გამოიყენეთ <a style="font-size: 1.4rem;" href="https://mega.nz/file/OW5HkIiD#_QNT-gxNqFhkTewvCwX73aNUZTpvcTovt6YX3amtTKc">MEGA ლინკი</a></p>
+			<p style="font-size: 1.3rem;" id="deldis">კლიენტის გადმოსაწერად ისარგებლეთ</p><a  style="font-size: 1.4rem;" href="https://l2dark.usite.pro/L2Dark.usite.pro_Client.torrent" id="deldis2">ტორენტით</a>
 		</article>
 		<section class="top right" id="status">
-		<p id="statusp">Dark x500</p>
+		<p id="statusp">Dark x5000</p>
 		</section>
 	</div>
 	<div id="midmain">
@@ -45,6 +46,22 @@
 		function msg(){
 			alert("საიტი ბეტა ვერსიაშია, რეგისტრაცია მალე დაემატება");
 		}
+		function donation() {
+			document.getElementById("demo").innerHTML = `მოგესალმებით L2Dark ადმინისტრაცია!
+პირველ რიგში მადლობა დონაციისთვის რადგან ყველა ხვდებით თუ როგორი საჭიროა დონაცია სერვერის განვითარებისთვის! სანამ საიტი ბეტა ტესტირებაშია დონაცია იმუშავებს შემდეგი გზით!
+პირველ რიგში რიცხავთ სასურველ თანხას ანგარიშზე  TBC -GE02TB7563245063300001
+მიმღები - რეზი ბესტავაშვილი ,
+
+დანიშნულებაში უთითებთ ჩარის სახელს!
+ იღებთ Screenshot ს და აგზავნით მაილზე( l2darkh5@gmail.com) ან დისკორდში Donation Chanel ში! 
+დონაციიდან 10-15 წუთის განმავლობაში ჩანთაში გაჩნდება დონაციის თანხის ოდენობის Donation Coin!
+გისურვებთ გართობას!`;
+			document.getElementById("deldis").innerHTML = "";
+			document.getElementById("deldis2").innerHTML = "";
+			document.getElementById("active").removeAttribute("id");
+	document.getElementById("don").id ="active";
+}
+
 
 
 	</script>
