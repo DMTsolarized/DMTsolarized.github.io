@@ -51,6 +51,7 @@ header{
 	font-size: 1.4rem;
 	line-height: 3rem;
 	transition: color 0.5s ease;
+	color: #03edff;
 }
 #navbar ul li a:hover{
 	color: #73aede;
@@ -91,5 +92,17 @@ header{
 }
 .active{
 		border-bottom: 1px solid white;
-
+}
+#statusp{
+	color: #03edff;
+}
+#statusp::after{
+	background-color: rgb(0, 128, 6);
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	content: " ";
+	margin-left: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
 }
