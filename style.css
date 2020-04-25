@@ -4,7 +4,7 @@
 	margin: 0;
 	font-size: 0.8vw;
 	font-family: 'Raleway', sans-serif;
-	color: #7170FF;
+	color: #F6eef7;
 }
 body, html{
 	height: 100%;
@@ -48,12 +48,12 @@ header{
 }
 #navbar ul li a{
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	line-height: 3rem;
 	transition: color 0.5s ease;
 }
 #navbar ul li a:hover{
-	color: red;
+	color: #73aede;
 }
 .left{
 	margin-left: 23vw;
@@ -64,13 +64,13 @@ header{
 	position: absolute;
 }
 .right{
-	margin-left:67vw;
+	margin-left: 66vw;
 }
-#regbar{
+#status{
 	width: 13vw;
 	
 }
-#regbar p,a{
+#status p,a{
 	font-size: 1.7rem;
 }
 #discordbar{
@@ -88,6 +88,8 @@ header{
 #topmain article p{
 	font-size: 2rem;
 	line-height: 4rem;
-	
-	
+}
+.active{
+		border-bottom: 1px solid white;
+
 }
