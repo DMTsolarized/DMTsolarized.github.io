@@ -11,8 +11,14 @@ body, html{
 	background-color: black;
 	
 }
+h2{
+	position: absolute;
+	font-size: 2rem;
+	top: 3vh;	
+}
 header{
 	height: 50vh;
+	margin-top: -10vh;
 	background: url("images/header.jpg") center top no-repeat;
 	background-size: 100% 100%;
 }
