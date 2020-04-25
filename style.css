@@ -1,0 +1,193 @@
+<<<<<<< HEAD
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 0.8vw;
+	font-family: 'Raleway', sans-serif;
+	color: #F6eef7;
+}
+body, html{
+	height: 100%;
+	background-color: black;
+	
+}
+header{
+	height: 50vh;
+	background: url("images/header.jpg") center top no-repeat;
+	background-size: 100% 100%;
+}
+#topmain{
+	position: relative;
+	height: 50vh;
+	background: url("images/wrappers.jpg") center no-repeat;
+	background-size: 100% 100%;
+}
+#midmain{
+	position: relative;
+	margin-top: 0px;
+	height: 50vh;
+	background: url("images/wrapper.jpg") center no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+#lastmain{
+	position: relative;
+	margin-top: -1px;
+	height: 50vh;
+	background: url("images/last.png") center no-repeat;
+	background-size: 100% 100%;
+	z-index: -2;
+}
+#navbar{
+	position: absolute;
+	width: 10vw;
+	height: 10vh;
+}
+#navbar ul{
+	list-style: none;
+}
+#navbar ul li a{
+	text-decoration: none;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	transition: color 0.5s ease;
+}
+#navbar ul li a:hover{
+	color: #73aede;
+}
+.left{
+	margin-left: 23vw;
+	
+}
+.top{
+	margin-top: 22vh;
+	position: absolute;
+}
+.right{
+	margin-left: 66vw;
+}
+#status{
+	width: 13vw;
+	
+}
+#status p,a{
+	font-size: 1.7rem;
+}
+#discordbar{
+	position: absolute;
+	width: 15%;
+	margin-top: 0vh;
+	margin-left: 65vw;
+	height: 85%;
+}
+#topmain article{
+	left: 37vw;
+	width: 25vw;
+	text-align: center;
+}
+#topmain article p{
+	font-size: 2rem;
+	line-height: 4rem;
+}
+.active{
+		border-bottom: 1px solid white;
+
+}
+=======
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 0.8vw;
+	font-family: 'Raleway', sans-serif;
+	color: #F6eef7;
+}
+body, html{
+	height: 100%;
+	background-color: black;
+	
+}
+header{
+	height: 50vh;
+	background: url("images/header.jpg") center top no-repeat;
+	background-size: 100% 100%;
+}
+#topmain{
+	position: relative;
+	height: 50vh;
+	background: url("images/wrappers.jpg") center no-repeat;
+	background-size: 100% 100%;
+}
+#midmain{
+	position: relative;
+	margin-top: 0px;
+	height: 50vh;
+	background: url("images/wrapper.jpg") center no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+#lastmain{
+	position: relative;
+	margin-top: -1px;
+	height: 50vh;
+	background: url("images/last.png") center no-repeat;
+	background-size: 100% 100%;
+	z-index: -2;
+}
+#navbar{
+	position: absolute;
+	width: 10vw;
+	height: 10vh;
+}
+#navbar ul{
+	list-style: none;
+}
+#navbar ul li a{
+	text-decoration: none;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	transition: color 0.5s ease;
+}
+#navbar ul li a:hover{
+	color: #73aede;
+}
+.left{
+	margin-left: 23vw;
+	
+}
+.top{
+	margin-top: 22vh;
+	position: absolute;
+}
+.right{
+	margin-left: 66vw;
+}
+#status{
+	width: 13vw;
+	
+}
+#status p,a{
+	font-size: 1.7rem;
+}
+#discordbar{
+	position: absolute;
+	width: 15%;
+	margin-top: 0vh;
+	margin-left: 65vw;
+	height: 85%;
+}
+#topmain article{
+	left: 37vw;
+	width: 25vw;
+	text-align: center;
+}
+#topmain article p{
+	font-size: 2rem;
+	line-height: 4rem;
+}
+.active{
+		border-bottom: 1px solid white;
+
+}
+>>>>>>> 0213ee92df69723279569858dc3d439bba294592
